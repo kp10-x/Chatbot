@@ -1,0 +1,31 @@
+{"intents": [
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye", "gtg"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "See you soon!", "Bye Bye"]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Sup", "Yo", "Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Heya!"]
+        },
+        {"tag": "about",
+         "patterns": ["what do you do?", "help me", "tell me about youself", "what are you doing"],
+         "responses": ["I'm a friendly chat bot, type whatever you need", "I love to chat with people, ask me anything"]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Noobot(but I'm not noob)", "I'm Noobot!", "Thats confidential...jk I'm Noobot"]
+        },
+        {"tag": "random",
+         "patterns": ["I'm bored", "Ok", "Fine", "k", "nice", "no", "yes"],
+         "responses": ["I see...", "Okay", "Cool, anything else you wanna do?", "I could humour you with a joke if you'd like", "K", ":)", "Oh"]
+        },
+        {"tag": "joke",
+         "patterns": ["tell me a joke", "joke", "amuse me"],
+         "responses": ["Did you hear about the crook who stole a calendar? He got twelve months.", "I own the world’s worst thesaurus. Not only is it awful, it’s awful.", "What’s the difference between a good joke and a bad joke timing.", "I’ve just written a song about tortillas; actually, it’s more of a rap.", "Don’t you hate it when someone answers their own questions? I do."]
+        },
+        {"tag": "laugh expression",
+         "patterns": ["lol", "lmao", "funny", "not funny", "lame"],
+         "responses": ["It was funny right?", "Funny, ain't it?", "Hehe"]
+        }
+   ]
+}
